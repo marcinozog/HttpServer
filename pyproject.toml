@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "httpserver2"
+version = "0.1.0"
+description = "Server HTTP"
+authors = ["marcinozog <m82ozog@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^11.0.0"
+opencv-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
